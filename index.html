@@ -8,8 +8,16 @@
 </head>
 <body>
     <div>
-        <div>刘淼是猪</div>
-        <img src="./u.jpg" alt="">
+        <div id="btn">我有你的照片(点我看图)</div>
+        <img id="ig" style="display:none" src="./u.jpg" alt="">
     </div>
 </body>
+<script>
+    var btn=document.getElementById('btn')
+    var ig=document.getElementById('ig')
+    btn.onclick=function(){
+        ig.style.display='block'
+
+    }
+</script>
 </html>
